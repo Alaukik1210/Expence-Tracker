@@ -65,8 +65,8 @@ h1 {
   padding: 15px;
 }
 button {
-  width: 55px;
-  height: 25px;
+  width: 65px;
+  height: 35px;
   border-radius: 10px;
   background: rgb(36, 255, 171);
   color: rgb(52, 51, 145);
@@ -102,12 +102,12 @@ button {
   font-weight: 700;
   padding: 10px;
   width: fit-content;
+  border-radius: 10px;
 }
 
 .totalouter {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .about {
@@ -118,4 +118,10 @@ button {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.del{
+  color:  rgb(1, 255, 192);
+  translate: -4px 25px ;
+  font-size: larger;
+  
 }
